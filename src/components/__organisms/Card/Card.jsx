@@ -1,12 +1,12 @@
 import React from 'react'
-import '../MainDiv/MainDiv.css'
+import '../Card/Card.css'
 import Image from '../../../assets/images/isometric.svg'
 import NewImage from '../../../assets/images/Group.svg'
 import ThirdImage from '../../../assets/images/Groups.svg'
 import Title from '../../__molecules/Title/Title'
 
 
-const MainDiv = () => {
+const Card = () => {
   return (
     <div className='MainDiv'>
        <img className='Image' src={Image} alt="Image" />
@@ -21,4 +21,4 @@ const MainDiv = () => {
    )
 }
 
-export default MainDiv
+export default Card

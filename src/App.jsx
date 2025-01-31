@@ -1,7 +1,8 @@
 
 
 import './App.css'
-import MainDiv from './components/__organisms/MainDIv/MainDiv'
+import Card from './components/__organisms/Card/Card'
+
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <>
-      <MainDiv/>
+      <Card/>
     </>
   )
 }
