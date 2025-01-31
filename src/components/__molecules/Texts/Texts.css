@@ -1,0 +1,97 @@
+.TextContainer {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 0;
+    margin-left: 245px;
+}
+
+.TextHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.Text {
+    font-family: "Kumbh Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.36px;
+    text-align: left;
+    flex: 1;
+}
+
+.line {
+    width: 375px;
+    height: 1px;
+    margin-top: 10px;
+    background-color: #E8E8EA;
+}
+
+.Icon {
+    cursor: pointer;
+    flex-shrink: 0;
+    
+    position: absolute;
+    top: -8px;
+    right: 250px;
+}
+
+.quote-container {
+    min-height: 10px;
+
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+}
+
+.quote {
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+    margin-top: 5px;
+    width: 100%;
+}
+
+@media (max-width: 1040px) and (min-width: 350px) {
+    @media (max-width: 1040px) and (min-width: 350px) {
+        .line {
+            width: 270px;
+        }
+    
+        .TextContainer {
+            margin-left: -40px;
+        }
+    
+        .TextHeader {
+            justify-content: space-between;
+            gap: 40px; 
+        }
+    
+        .Icon {
+            position: relative;
+            top: 0; 
+            right: 0; 
+        }
+    
+        .Text {
+            flex: 1;
+            margin-right: 40px; 
+        }
+    }
+    
+
+  
+}

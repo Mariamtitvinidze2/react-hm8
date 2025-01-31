@@ -1,0 +1,62 @@
+
+.MainDiv {
+    width: 980px;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.Image{
+    position: absolute;
+    margin-left: -570px;
+    margin-top: 90px;
+    z-index: 2;
+}
+.NewImage{
+    position: absolute;
+    margin-left: -490px;
+    margin-top: 0px;
+    z-index: 1;
+}
+.ThirdImage {
+    position: absolute;
+    margin-left: -548px;
+    margin-top: 220px;
+    z-index: 3;
+}
+
+@media (max-width: 1040px) and (min-width: 350px) {
+    .MainDiv {
+        width: 327px;
+height: auto;
+gap: 0px;
+border-radius: 23px 0px 0px 0px;
+opacity: 0px;
+
+    }
+
+    .NewImage {
+        display: none;
+    } 
+
+    .Image {
+        width: 237px;
+height: 180px;
+margin-left: 20px;
+margin-top: -130px;
+    }
+    .ThirdImage {
+        width: 105px;
+        height: 63px;
+       
+        margin-top: -36px;
+       margin-left: -160px;
+    } 
+}

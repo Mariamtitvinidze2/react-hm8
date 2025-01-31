@@ -1,0 +1,31 @@
+.Title {
+    font-family: Kumbh Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.69px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+
+.Texts {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 90px;
+}
+
+@media (max-width: 1040px) and (min-width: 350px) {
+    .Title {
+        margin-top: 80px;
+        margin-left: 1px;
+    }
+    .MainDiv {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
